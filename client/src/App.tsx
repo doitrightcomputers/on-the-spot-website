@@ -7,6 +7,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Prices from "./pages/Prices";
 import Contact from "./pages/Contact";
+import Gallery from "./pages/Gallery";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -16,6 +17,7 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/prices"} component={Prices} />
       <Route path={"/contact"} component={Contact} />
+      <Route path={"/gallery"} component={Gallery} />
       <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />
     </Switch>
