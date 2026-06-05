@@ -33,91 +33,95 @@ const priceCategories: PriceCategory[] = [
     title: "Carpet & Rug Cleaning",
     description: "Reverse osmosis H2O, high-heat extraction, MasterBlend products",
     rows: [
-      { service: "Standard Carpet Cleaning", unit: "Per Sq. Ft.", price: "$0.35 – $0.55", note: "Depends on soiling level" },
-      { service: "Deep Extraction Cleaning", unit: "Per Sq. Ft.", price: "$0.50 – $0.75", note: "Heavy traffic / staining" },
-      { service: "Area Rug Cleaning", unit: "Per Sq. Ft.", price: "$2.00 – $5.00", note: "Varies by material & size" },
-      { service: "Stair Cleaning", unit: "Per Step", price: "$3.00 – $5.00" },
-      { service: "DuPont Invisible Shield Protection", unit: "Per Sq. Ft.", price: "$0.15 – $0.25", note: "Stain repellent coating" },
-      { service: "Fragrance Treatment", unit: "Per Room", price: "$10.00 – $20.00" },
+      { service: "Carpet Cleaning", unit: "Per Sq. Ft.", price: "$0.44" },
+      { service: "Area Rug Cleaning", unit: "Per Sq. Ft.", price: "$2.50" },
+      { service: "Pet Urine Removal Treatment (PURT)", unit: "Per Treatment", price: "$45.00" },
+      { service: "DuPont Invisible Shield Protection", unit: "Per Sq. Ft.", price: "Contact for Quote" },
     ],
   },
   {
-    title: "Stain & Odor Removal",
-    description: "Specialized treatments for the toughest stains and odors",
+    title: "Flooring Services",
+    description: "Tile, hardwood, and specialized floor care",
     rows: [
-      { service: "Pet Urine Treatment", unit: "Per Area", price: "$50.00 – $150.00", note: "Depends on severity" },
-      { service: "Wine / Red Stain Removal", unit: "Per Stain", price: "$25.00 – $75.00" },
-      { service: "Mildew Treatment", unit: "Per Area", price: "$40.00 – $100.00" },
-      { service: "General Odor Removal", unit: "Per Room", price: "$30.00 – $80.00" },
-      { service: "Topical Stain Treatment", unit: "Per Stain", price: "$15.00 – $50.00" },
+      { service: "Tile Cleaning", unit: "Per Sq. Ft.", price: "$1.00" },
+      { service: "Hardwood Floors", unit: "Per Sq. Ft.", price: "$0.33" },
+      { service: "Low Speed Floor Machine", unit: "Flat Rate", price: "$150.00" },
+      { service: "Baseboard Cleaning", unit: "Per Linear Sq. Ft.", price: "$0.40" },
     ],
   },
   {
     title: "Upholstery & Specialty",
     description: "Fine upholstery, mattresses, pillows, and bedframes",
     rows: [
-      { service: "Sofa Cleaning (3-seat)", unit: "Per Piece", price: "$100.00 – $200.00" },
-      { service: "Loveseat Cleaning", unit: "Per Piece", price: "$75.00 – $150.00" },
-      { service: "Armchair Cleaning", unit: "Per Piece", price: "$50.00 – $100.00" },
-      { service: "Mattress Cleaning", unit: "Per Side", price: "$50.00 – $100.00", note: "Twin to King" },
-      { service: "Pillow Cleaning", unit: "Per Pillow", price: "$10.00 – $25.00" },
-      { service: "Fine Upholstery / Bedframes", unit: "Per Piece", price: "Call for Quote" },
+      { service: "Upholstery Cleaning", unit: "Per Sq. Ft.", price: "$10.00" },
+      { service: "Mattress Cleaning", unit: "Per Mattress", price: "Contact for Quote" },
+      { service: "Pillow Cleaning", unit: "Per Pillow", price: "Contact for Quote" },
+      { service: "Fine Upholstery / Bedframes", unit: "Per Piece", price: "Contact for Quote" },
     ],
   },
   {
-    title: "Pressure Washing",
+    title: "Pressure Washing & Exterior",
     description: "Roofs, concrete, siding, decks, fences, brick pavers, and more",
     rows: [
-      { service: "Concrete / Driveway Cleaning", unit: "Per Sq. Ft.", price: "$0.15 – $0.35" },
-      { service: "House Siding & Trim", unit: "Per Lin. Ft.", price: "$1.00 – $3.00" },
-      { service: "Deck & Fence Cleaning", unit: "Per Lin. Ft.", price: "$1.00 – $2.50" },
-      { service: "Roof Cleaning", unit: "Per Sq. Ft.", price: "$0.25 – $0.60", note: "Soft wash method" },
-      { service: "Brick Paver Cleaning", unit: "Per Sq. Ft.", price: "$0.20 – $0.50" },
-      { service: "Brick Paver Sealing", unit: "Per Sq. Ft.", price: "$0.50 – $1.50", note: "After cleaning" },
+      { service: "Concrete Cleaning", unit: "Per Foot", price: "$1.00" },
+      { service: "Sealing", unit: "Per Sq. Ft.", price: "$1.30" },
+      { service: "Roof Washing", unit: "TBD", price: "Contact for Quote" },
+      { service: "House Washing", unit: "TBD", price: "Contact for Quote" },
+      { service: "Vacuum Gutter Cleaning", unit: "Per Linear Sq. Ft.", price: "$4.00" },
+      { service: "Wood-Restore", unit: "Per Linear Sq. Ft.", price: "$4.00" },
     ],
   },
   {
-    title: "Chemical Wash (Sodium Hypochlorite)",
-    description: "Professional-grade chemical treatments for exterior surfaces",
+    title: "Specialized Cleaning Services",
+    description: "Chemical treatments, equipment rental, and specialized services",
     rows: [
-      { service: "Light Concentration Wash", unit: "Per Sq. Ft.", price: "$0.10 – $0.20", note: "General maintenance" },
-      { service: "Medium Concentration Wash", unit: "Per Sq. Ft.", price: "$0.20 – $0.40", note: "Moderate buildup" },
-      { service: "Heavy Concentration Wash", unit: "Per Sq. Ft.", price: "$0.35 – $0.60", note: "Severe mold/mildew" },
-      { service: "Gutter Vacuuming", unit: "Per Lin. Ft.", price: "$1.00 – $3.00" },
+      { service: "Rust Remover", unit: "Per Gallon", price: "$70.00" },
+      { service: "Effervescent Calcium Remover", unit: "Per Gallon", price: "$70.00" },
+      { service: "High Speed Dryers", unit: "Per Unit", price: "$30.00" },
+      { service: "High Pressure Air", unit: "Per Half-Hour", price: "$30.00 ($1.00/min)" },
+      { service: "Chemical Reclamation", unit: "Per Hour", price: "$200.00" },
+      { service: "Water Reclamation", unit: "Per Hour", price: "$160.00" },
+      { service: "Bio-Hazard Cleaning", unit: "Per Hour", price: "$350.00" },
+      { service: "Hoarding/Hoarding Cleanup", unit: "Per Hour", price: "$250.00" },
     ],
   },
   {
-    title: "Vehicle Detailing",
-    description: "Luxury vehicles, reverse osmosis water, sap removal, and more",
+    title: "Moving & Furniture Services",
+    description: "Moving furniture and related services",
     rows: [
-      { service: "Exterior Wash (RO Water)", unit: "Per Vehicle", price: "$75.00 – $200.00", note: "Size dependent" },
-      { service: "Interior Detailing", unit: "Per Vehicle", price: "$100.00 – $300.00" },
-      { service: "Full Detail Package", unit: "Per Vehicle", price: "$200.00 – $500.00" },
-      { service: "Sap Removal", unit: "Per Vehicle", price: "$50.00 – $150.00" },
-      { service: "Upholstery / Carpet in Vehicle", unit: "Per Vehicle", price: "$75.00 – $200.00" },
+      { service: "Moving Furniture", unit: "Per Sq. Ft.", price: "$0.52" },
+      { service: "Hauling and Moving", unit: "TBD", price: "Contact for Quote" },
     ],
   },
   {
-    title: "Commercial Services",
-    description: "Hotels, restaurants, retail, HOAs, condos, and event spaces",
+    title: "Soft Wash & Window Services",
+    description: "Gentle washing and window cleaning",
     rows: [
-      { service: "Hotel Exterior Cleaning", unit: "Per Project", price: "Call for Quote" },
-      { service: "Restaurant / Retail Cleaning", unit: "Per Sq. Ft.", price: "$0.20 – $0.50" },
-      { service: "Sidewalk / Pool Deck", unit: "Per Sq. Ft.", price: "$0.15 – $0.35" },
-      { service: "Dumpster Cleaning / Degreasing", unit: "Per Unit", price: "$75.00 – $200.00" },
-      { service: "Playground / Park Equipment Sanitizing", unit: "Per Project", price: "Call for Quote" },
-      { service: "Drive-Through Cleaning", unit: "Per Project", price: "Call for Quote" },
-      { service: "Event Pre/Post Cleaning", unit: "Per Project", price: "Call for Quote" },
+      { service: "Soft Wash", unit: "TBD", price: "Contact for Quote" },
+      { service: "Window Wash", unit: "TBD", price: "Contact for Quote" },
+      { service: "House Wash, Wax, and Blow", unit: "TBD", price: "Contact for Quote" },
     ],
   },
   {
-    title: "Tile, Grout & Floor Services",
-    description: "Machine-scrub, tile cleaning, grout restoration, and floor care",
+    title: "Commercial & Property Services",
+    description: "Commercial cleaning, property cleanup, and specialized services",
     rows: [
-      { service: "Tile & Grout Cleaning", unit: "Per Sq. Ft.", price: "$0.75 – $2.00" },
-      { service: "Machine Scrub (Any Surface)", unit: "Per Sq. Ft.", price: "$0.50 – $1.50" },
-      { service: "Low Speed Floor Machine Service", unit: "Per Sq. Ft.", price: "$0.40 – $1.00" },
-      { service: "Steam Cleaning", unit: "Per Sq. Ft.", price: "$0.35 – $0.75" },
+      { service: "Trash Removal", unit: "N/A", price: "No Price" },
+      { service: "Donations", unit: "N/A", price: "No Price" },
+      { service: "Senior Solutions", unit: "N/A", price: "No Price" },
+      { service: "Power Wash Indoors", unit: "N/A", price: "No Price" },
+      { service: "Extra Cleaning", unit: "N/A", price: "No Price" },
+      { service: "Remote Location", unit: "N/A", price: "No Price" },
+      { service: "Full Property Cleanup", unit: "TBD", price: "Contact for Quote" },
+      { service: "Landscape Cleanup", unit: "TBD", price: "Contact for Quote" },
+      { service: "Driveway/House Combo", unit: "TBD", price: "Contact for Quote" },
+    ],
+  },
+  {
+    title: "Warranties & Protection",
+    description: "Extended protection and warranty options",
+    rows: [
+      { service: "Warranties", unit: "Duration", price: "Contact for Quote" },
     ],
   },
 ];
@@ -186,7 +190,7 @@ export default function Prices() {
                           Unit
                         </th>
                         <th className="text-left text-xs tracking-[0.15em] uppercase text-[#EFC07B] font-semibold py-4 px-6">
-                          Price Range
+                          Price
                         </th>
                         <th className="text-left text-xs tracking-[0.15em] uppercase text-[#EFC07B] font-semibold py-4 px-6">
                           Notes
@@ -255,6 +259,9 @@ export default function Prices() {
                   </li>
                   <li>
                     Tony brings his own self-contained power, products, labor, and equipment.
+                  </li>
+                  <li>
+                    Licensed and insured. Serving Monterey County for 15 years.
                   </li>
                 </ul>
               </div>
