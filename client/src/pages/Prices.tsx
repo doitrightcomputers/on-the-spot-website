@@ -152,6 +152,11 @@ export default function Prices() {
               obligations and no minimums. Senior citizen, military, student, and
               teacher discounts are available.
             </p>
+            <div className="mt-8 p-6 bg-[#0F3460]/30 border border-[#EFC07B]/30 rounded-lg">
+              <p className="text-[#F5F0E8]/80 text-sm leading-relaxed">
+                <span className="text-[#EFC07B] font-semibold">Why Some Prices Are Contact for Quote:</span> The beautiful homes, hotels, and properties in Carmel-By-The-Sea and Monterey County are unique. Each property varies widely in size, shape, location, and the specific fixtures that need cleaning and improvement. Many of our services require a high level of specialization that only On-The-Spot Company can provide. For these custom services, we offer free, quick, and easy estimates so you know exactly what to expect.
+              </p>
+            </div>
           </motion.div>
         </div>
       </section>

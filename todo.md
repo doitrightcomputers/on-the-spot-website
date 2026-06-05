@@ -29,10 +29,10 @@
 - [ ] Verify mobile responsiveness
 
 ## Phase 5: Testing & Deployment
-- [ ] Test all pricing displays on mobile and desktop
-- [ ] Verify social media links work
-- [ ] Run SEO audit tools
-- [ ] Create checkpoint
+- [x] Test all pricing displays on mobile and desktop
+- [x] Verify social media links work
+- [x] Run SEO audit tools
+- [x] Create checkpoint
 - [ ] Document in Asana
 - [ ] Update Asana task with completion status
 
@@ -41,3 +41,23 @@
 - Plan to convert to static HTML/CSS/JS for $25/year hosting
 - Current Manus hosting: $200/month (acceptable for now, will migrate later)
 - Customer pays $240/year for hosting (won't increase to match Manus costs)
+
+
+## Phase 6: Gallery Upload & Photo Integration
+- [x] Upload all 33 Tony photos to S3
+- [x] Organize photos by category (Van, Equipment, Vehicles, Carmel Locations, Before/After)
+- [x] Update Gallery page to display photos with beautiful grid layout
+- [x] Add photo descriptions and alt text for SEO
+
+## Phase 7: Pricing Explanation & Business Card Design
+- [x] Add explanation section on Prices page explaining TBD pricing (unique properties, specialization)
+- [x] Create business card design template matching Midnight Opulence theme
+- [x] Export business card as PDF/image for printing
+- [x] Ensure business card matches front page branding
+
+## Phase 8: Final Testing & Deployment
+- [ ] Test Gallery with all photos on desktop and mobile
+- [ ] Verify pricing explanation displays correctly
+- [ ] Test business card design
+- [ ] Create final checkpoint
+- [ ] Document all work in Asana
