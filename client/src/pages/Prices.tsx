@@ -36,7 +36,7 @@ const priceCategories: PriceCategory[] = [
       { service: "Carpet Cleaning", unit: "Per Sq. Ft.", price: "$0.44" },
       { service: "Area Rug Cleaning", unit: "Per Sq. Ft.", price: "$2.50" },
       { service: "Pet Urine Removal Treatment (PURT)", unit: "Per Treatment", price: "$45.00" },
-      { service: "DuPont Invisible Shield Protection", unit: "Per Sq. Ft.", price: "Contact for Quote" },
+      { service: "Dupont Carpet and Upholstery Protection", unit: "Per Sq. Ft.", price: "$0.45" },
     ],
   },
   {

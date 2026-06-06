@@ -83,4 +83,7 @@
 
 ## Phase 11: Remaining Fixes (Jun 6, 2026)
 - [x] Remove "sodium hypochlorite" from Home.tsx - replace with "SH Wash" or "Soft Wash"
-- [ ] Save checkpoint with all gallery text edits applied
+- [x] Save checkpoint with all gallery text edits applied (version: c7557a5f)
+
+## Phase 12: DuPont Pricing Update (Jun 6, 2026)
+- [x] Change "DuPont Invisible Shield Protection" to "Dupont Carpet and Upholstery Protection" at $0.45/sq ft
