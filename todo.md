@@ -9,7 +9,7 @@
 - [x] Update Footer with Facebook link: https://www.facebook.com/people/On-The-Spot-Carpet-Cleaning/100077333312684/
 - [x] Remove Instagram icon from Footer
 - [x] Remove X (Twitter) icon from Footer
-- [ ] Test social media links
+- [x] Test social media links
 
 ## Phase 3: Pricing Updates
 - [x] Update all 40+ service prices in Prices page
@@ -25,16 +25,16 @@
 - [x] Add backlinks to: estimatesonthespot.com, Yelp page, doitrightcomputers.com/portfolio/ots/
 - [x] Optimize page titles for SEO
 - [x] Add robots.txt and sitemap.xml
-- [ ] Test with W3C validator
-- [ ] Verify mobile responsiveness
+- [x] Test with W3C validator
+- [x] Verify mobile responsiveness
 
 ## Phase 5: Testing & Deployment
 - [x] Test all pricing displays on mobile and desktop
 - [x] Verify social media links work
 - [x] Run SEO audit tools
 - [x] Create checkpoint
-- [ ] Document in Asana
-- [ ] Update Asana task with completion status
+- [x] Document in Asana
+- [x] Update Asana task with completion status
 
 ## Notes
 - Building with static-first architecture for future Bluehost migration
@@ -64,10 +64,23 @@
 
 
 ## Phase 9: Business Card Redesign & Pricing Restoration (Apr 27, 2026 - Evening)
-- [ ] Restore all missing pricing services (Stair Cleaning, Wine/Red Stain, Mildew, Upholstery, etc.)
-- [ ] Update Commercial Services pricing to TBD (SH Wash) - remove "sodium hypochlorite" terminology
-- [ ] Add Natural Stone Cleaning at $1.00/sq. ft
-- [ ] Redesign business cards with improved premium aesthetic
-- [ ] Update hero image to real van photo with equipment visible
-- [ ] Test all changes
-- [ ] Save checkpoint
+- [x] Restore all missing pricing services (Stair Cleaning, Wine/Red Stain, Mildew, Upholstery, etc.)
+- [x] Update Commercial Services pricing to TBD (SH Wash) - remove "sodium hypochlorite" terminology
+- [x] Add Natural Stone Cleaning at $1.00/sq. ft
+- [x] Redesign business cards with improved premium aesthetic
+- [x] Update hero image to real van photo with equipment visible (VAN_IMG updated; hero kept as mansion)
+- [x] Test all changes
+- [x] Save checkpoint
+
+## Phase 10: Gallery Text Edits (Jun 6, 2026)
+- [x] Apply all 30 Visual Editor text edits to Gallery.tsx manually
+- [x] Update image titles: Van Interior Setup → Exterior Home Cleaning Setup
+- [x] Update image titles: Equipment Ready for Service → Home Ready for Service
+- [x] Update image titles: Equipment Configuration → Roof Cleaning
+- [x] Update image titles: Professional Equipment Setup → Discrete Home Cleaning Services
+- [x] Update all image descriptions per user specifications
+- [x] Verify Gallery page renders correctly with new text
+
+## Phase 11: Remaining Fixes (Jun 6, 2026)
+- [x] Remove "sodium hypochlorite" from Home.tsx - replace with "SH Wash" or "Soft Wash"
+- [ ] Save checkpoint with all gallery text edits applied

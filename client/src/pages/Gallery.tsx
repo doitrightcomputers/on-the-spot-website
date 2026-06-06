@@ -30,7 +30,7 @@ const galleryImages: GalleryImage[] = [
   {
     id: 'van-2',
     url: '/manus-storage/20260604_van-2_a9fa1c50.jpg',
-    title: 'Professional Equipment Setup',
+    title: 'Discrete Home Cleaning Services',
     category: 'Van & Equipment',
     description: 'State-of-the-art cleaning equipment including RIGID Turbo dryers and carpet cleaning machines',
     alt: 'Professional cleaning equipment including RIGID Turbo dryers'
@@ -40,7 +40,7 @@ const galleryImages: GalleryImage[] = [
     url: '/manus-storage/20260604_van-3_54a839e2.jpg',
     title: 'Van Equipment Detail',
     category: 'Van & Equipment',
-    description: 'Specialized cleaning tools and equipment for ultra-prestige cleaning services',
+    description: 'Specialized cleaning tools and equipment for ultra-prestigious homes',
     alt: 'Detailed view of professional cleaning equipment in van'
   },
   {
@@ -48,7 +48,7 @@ const galleryImages: GalleryImage[] = [
     url: '/manus-storage/20260604_van-4_06e8a15c.jpg',
     title: 'Complete Mobile Setup',
     category: 'Van & Equipment',
-    description: 'Everything Tony needs for professional cleaning fits in his van',
+    description: 'Everything Tony needs for professional cleaning fits in his compact van',
     alt: 'Complete mobile cleaning setup in van'
   },
   {
@@ -56,23 +56,23 @@ const galleryImages: GalleryImage[] = [
     url: '/manus-storage/20260604_van-5_9f55b028.jpg',
     title: 'Van Equipment Organization',
     category: 'Van & Equipment',
-    description: 'Organized professional cleaning equipment ready for service',
+    description: 'Beautiful homes in Monterey County are cleaned by On-The-Spot Company every day',
     alt: 'Organized professional cleaning equipment'
   },
   {
     id: 'van-6',
     url: '/manus-storage/20260604_van-6_03ef5ae8.jpg',
-    title: 'Equipment Ready for Service',
+    title: 'Home Ready for Service',
     category: 'Van & Equipment',
-    description: 'Professional-grade equipment for luxury property cleaning',
+    description: 'Professional-grade equipment and service for luxury property cleanings',
     alt: 'Professional-grade cleaning equipment ready for service'
   },
   {
     id: 'van-7',
     url: '/manus-storage/20260604_van-7_8842b247.jpg',
-    title: 'Van Interior Setup',
+    title: 'Exterior Home Cleaning Setup',
     category: 'Van & Equipment',
-    description: 'Interior view of fully equipped cleaning van',
+    description: 'On-The-Spot Company, formerly known as On-The-Spot Carpet Cleaning cleans whole homes and businesses',
     alt: 'Interior view of fully equipped cleaning van'
   },
   {
@@ -80,7 +80,7 @@ const galleryImages: GalleryImage[] = [
     url: '/manus-storage/20260604_van-8_90d81e7a.jpg',
     title: 'Professional Equipment Detail',
     category: 'Van & Equipment',
-    description: 'Close-up of specialized cleaning equipment',
+    description: 'On-The-Spot Company cleans interiors, and exteriors',
     alt: 'Close-up of specialized cleaning equipment'
   },
   {
@@ -94,7 +94,7 @@ const galleryImages: GalleryImage[] = [
   {
     id: 'van-10',
     url: '/manus-storage/20260604_van-10_3d5d57c0.jpg',
-    title: 'Equipment Configuration',
+    title: 'Roof Cleaning',
     category: 'Van & Equipment',
     description: 'Professional equipment configuration for optimal service',
     alt: 'Professional equipment configuration'
@@ -104,7 +104,7 @@ const galleryImages: GalleryImage[] = [
     url: '/manus-storage/20260604_vanStageCarmel_8cce640a.jpg',
     title: 'Van Showcase',
     category: 'Van & Equipment',
-    description: 'Professional showcase of On-The-Spot van and equipment',
+    description: 'Professional cleaning at event centers in Carmel',
     alt: 'Professional showcase of On-The-Spot van'
   },
   {
@@ -112,7 +112,7 @@ const galleryImages: GalleryImage[] = [
     url: '/manus-storage/20260604_vanStageCarmel-2_0e3f8dc5.jpg',
     title: 'Equipment Showcase',
     category: 'Van & Equipment',
-    description: 'Professional presentation of cleaning equipment',
+    description: 'Professional cleanings for your most important events and shows',
     alt: 'Professional presentation of cleaning equipment'
   },
   {
@@ -120,7 +120,7 @@ const galleryImages: GalleryImage[] = [
     url: '/manus-storage/20260604_vanStageCarmel-3_ab6c3a7c.jpg',
     title: 'Van Display',
     category: 'Van & Equipment',
-    description: 'Display of fully equipped professional van',
+    description: 'No matter what you need cleaned, or how clean you need it, Tony can do it',
     alt: 'Display of fully equipped professional van'
   },
   {
@@ -128,7 +128,7 @@ const galleryImages: GalleryImage[] = [
     url: '/manus-storage/20260604_vanStageCarmel-4_451f2bfc.jpg',
     title: 'Professional Setup',
     category: 'Van & Equipment',
-    description: 'Professional setup of On-The-Spot equipment',
+    description: 'Tony performing a commercial cleaning service in Carmel-by-the-Sea',
     alt: 'Professional setup of On-The-Spot equipment'
   },
 
@@ -146,7 +146,7 @@ const galleryImages: GalleryImage[] = [
     url: '/manus-storage/20260604_vanCarmel-2_96019ee1.jpg',
     title: 'Carmel Service Location',
     category: 'Carmel Locations',
-    description: 'Van positioned for luxury property cleaning in Carmel',
+    description: '',
     alt: 'Van positioned for luxury property cleaning in Carmel'
   },
   {
@@ -170,7 +170,7 @@ const galleryImages: GalleryImage[] = [
     url: '/manus-storage/20260604_vanCarmel-5_c1d067ef.jpg',
     title: 'Van Ready for Service',
     category: 'Carmel Locations',
-    description: 'Van positioned and ready for premium cleaning service',
+    description: 'Brick premium cleaning service',
     alt: 'Van ready for premium cleaning service'
   },
   {
@@ -194,7 +194,7 @@ const galleryImages: GalleryImage[] = [
     url: '/manus-storage/20260604_vanCarmel-8_95b1338f.jpg',
     title: 'Premium Service Location',
     category: 'Carmel Locations',
-    description: 'Van providing premium cleaning in Carmel',
+    description: 'Providing premium cleaning in Carmel',
     alt: 'Van providing premium cleaning in Carmel'
   },
   {
@@ -210,7 +210,7 @@ const galleryImages: GalleryImage[] = [
     url: '/manus-storage/20260604_vanCarmel-10_4f9646ce.jpg',
     title: 'Van in Carmel Setting',
     category: 'Carmel Locations',
-    description: 'Professional van in beautiful Carmel location',
+    description: 'Professional Brick and Fence Cleaning, Wood-Restoration, and much more.',
     alt: 'Professional van in Carmel'
   },
   {
@@ -218,7 +218,7 @@ const galleryImages: GalleryImage[] = [
     url: '/manus-storage/20260604_vanCarmel-11_25f65af0.jpg',
     title: 'Carmel Service Ready',
     category: 'Carmel Locations',
-    description: 'Van ready to serve Carmel properties',
+    description: 'Ready to serve Carmel properties',
     alt: 'Van ready to serve Carmel properties'
   },
   {

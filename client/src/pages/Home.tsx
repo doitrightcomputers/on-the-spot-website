@@ -52,7 +52,7 @@ const serviceHighlights = [
   },
   {
     title: "Pressure Washing",
-    desc: "Roofs, concrete, siding, decks, fences, brick pavers, and commercial exteriors. Sodium hypochlorite wash available.",
+    desc: "Roofs, concrete, siding, decks, fences, brick pavers, and commercial exteriors. SH Wash (Soft Wash) available.",
     icon: Droplets,
   },
   {
