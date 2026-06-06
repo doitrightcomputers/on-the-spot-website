@@ -47,28 +47,56 @@ const priceCategories: PriceCategory[] = [
       { service: "Hardwood Floors", unit: "Per Sq. Ft.", price: "$0.33" },
       { service: "Low Speed Floor Machine", unit: "Flat Rate", price: "$150.00" },
       { service: "Baseboard Cleaning", unit: "Per Linear Sq. Ft.", price: "$0.40" },
+      { service: "Stair Cleaning", unit: "Per Step", price: "$3.00 - $4.00 (with Machine Scrub)" },
+    ],
+  },
+  {
+    title: "Stain & Spot Removal",
+    description: "Wine, red stains, and specialized spot treatments",
+    rows: [
+      { service: "Wine and Red Stain Removal", unit: "Per Stain", price: "$25.00 - $75.00" },
+      { service: "Mildew Treatment", unit: "Per Gallon", price: "$70.00" },
     ],
   },
   {
     title: "Upholstery & Specialty",
     description: "Fine upholstery, mattresses, pillows, and bedframes",
     rows: [
-      { service: "Upholstery Cleaning", unit: "Per Sq. Ft.", price: "$10.00" },
+      { service: "Sofa Cleaning", unit: "Per Foot", price: "$10.00" },
+      { service: "Loveseat Cleaning", unit: "Per Foot", price: "$10.00" },
+      { service: "Bolster Cleaning", unit: "Per Foot", price: "$10.00" },
+      { service: "Pillow Cleaning", unit: "Per Foot", price: "$10.00" },
+      { service: "Fine Upholstery & Dust Ruffles", unit: "Per Foot", price: "$10.00" },
       { service: "Mattress Cleaning", unit: "Per Mattress", price: "Contact for Quote" },
-      { service: "Pillow Cleaning", unit: "Per Pillow", price: "Contact for Quote" },
-      { service: "Fine Upholstery / Bedframes", unit: "Per Piece", price: "Contact for Quote" },
     ],
   },
   {
-    title: "Pressure Washing & Exterior",
+    title: "Exterior & Pressure Washing",
     description: "Roofs, concrete, siding, decks, fences, brick pavers, and more",
     rows: [
+      { service: "House Siding & Trim", unit: "Per Sq. Ft.", price: "$0.75 - $1.25" },
+      { service: "Fence Cleaning", unit: "Per Foot", price: "$4.00" },
+      { service: "Deck Cleaning", unit: "Per Sq. Ft.", price: "$0.75" },
+      { service: "Roof Cleaning", unit: "Contact for Quote", price: "Contact for Quote" },
+      { service: "Pavers or Brick Cleaning", unit: "Per Sq. Ft.", price: "$0.75 - $1.25" },
       { service: "Concrete Cleaning", unit: "Per Foot", price: "$1.00" },
       { service: "Sealing", unit: "Per Sq. Ft.", price: "$1.30" },
-      { service: "Roof Washing", unit: "TBD", price: "Contact for Quote" },
-      { service: "House Washing", unit: "TBD", price: "Contact for Quote" },
+      { service: "House Washing", unit: "Contact for Quote", price: "Contact for Quote" },
       { service: "Vacuum Gutter Cleaning", unit: "Per Linear Sq. Ft.", price: "$4.00" },
       { service: "Wood-Restore", unit: "Per Linear Sq. Ft.", price: "$4.00" },
+    ],
+  },
+  {
+    title: "Vehicle Detailing & Services",
+    description: "Professional vehicle cleaning and detailing with reverse osmosis water",
+    rows: [
+      { service: "Vehicle Detailing (RO Water)", unit: "Per Vehicle", price: "$75.00 - $200.00" },
+      { service: "Interior Detailing - Light", unit: "Flat Rate", price: "$125.00" },
+      { service: "Interior Detailing - Medium", unit: "Flat Rate", price: "$180.00 (Foamer + Extra Time)" },
+      { service: "Interior Detailing - Heavy", unit: "Flat Rate", price: "$240.00 (Natural Dry) / $400.00 (Force-Dried)" },
+      { service: "Full Detail Package", unit: "Flat Rate", price: "$750.00" },
+      { service: "Sap Removal", unit: "Per Treatment", price: "$45.00" },
+      { service: "Upholstery / Carpet in Vehicle", unit: "Per Foot", price: "$10.00" },
     ],
   },
   {
@@ -86,42 +114,56 @@ const priceCategories: PriceCategory[] = [
     ],
   },
   {
-    title: "Moving & Furniture Services",
-    description: "Moving furniture and related services",
-    rows: [
-      { service: "Moving Furniture", unit: "Per Sq. Ft.", price: "$0.52" },
-      { service: "Hauling and Moving", unit: "TBD", price: "Contact for Quote" },
-    ],
-  },
-  {
-    title: "Soft Wash & Window Services",
-    description: "Gentle washing and window cleaning",
-    rows: [
-      { service: "Soft Wash", unit: "TBD", price: "Contact for Quote" },
-      { service: "Window Wash", unit: "TBD", price: "Contact for Quote" },
-      { service: "House Wash, Wax, and Blow", unit: "TBD", price: "Contact for Quote" },
-    ],
-  },
-  {
     title: "Commercial & Property Services",
     description: "Commercial cleaning, property cleanup, and specialized services",
     rows: [
+      { service: "Hotel Exterior Cleaning", unit: "Contact for Quote", price: "Contact for Quote (SH Wash)" },
+      { service: "Restaurant/Retail Cleaning", unit: "Contact for Quote", price: "Contact for Quote (SH Wash)" },
+      { service: "Sidewalk/Pool Deck Cleaning", unit: "Contact for Quote", price: "Contact for Quote (SH Wash)" },
+      { service: "Dumpster Cleaning/Degreasing", unit: "Contact for Quote", price: "Contact for Quote (SH Wash)" },
+      { service: "Playground/Park Equipment Sanitizing", unit: "Contact for Quote", price: "Contact for Quote (SH Wash)" },
+      { service: "Drive-Through Cleaning", unit: "Contact for Quote", price: "Contact for Quote (SH Wash)" },
+      { service: "Event Pre/Post Cleaning", unit: "Contact for Quote", price: "Contact for Quote (SH Wash)" },
       { service: "Trash Removal", unit: "N/A", price: "No Price" },
       { service: "Donations", unit: "N/A", price: "No Price" },
       { service: "Senior Solutions", unit: "N/A", price: "No Price" },
       { service: "Power Wash Indoors", unit: "N/A", price: "No Price" },
       { service: "Extra Cleaning", unit: "N/A", price: "No Price" },
       { service: "Remote Location", unit: "N/A", price: "No Price" },
-      { service: "Full Property Cleanup", unit: "TBD", price: "Contact for Quote" },
-      { service: "Landscape Cleanup", unit: "TBD", price: "Contact for Quote" },
-      { service: "Driveway/House Combo", unit: "TBD", price: "Contact for Quote" },
+      { service: "Full Property Cleanup", unit: "Contact for Quote", price: "Contact for Quote" },
+      { service: "Landscape Cleanup", unit: "Contact for Quote", price: "Contact for Quote" },
+      { service: "Driveway/House Combo", unit: "Contact for Quote", price: "Contact for Quote" },
+    ],
+  },
+  {
+    title: "Natural Stone & Specialty",
+    description: "Premium natural stone and specialty surface care",
+    rows: [
+      { service: "Natural Stone Cleaning", unit: "Per Sq. Ft.", price: "$1.00" },
+    ],
+  },
+  {
+    title: "Moving & Furniture Services",
+    description: "Moving furniture and related services",
+    rows: [
+      { service: "Moving Furniture", unit: "Per Sq. Ft.", price: "$0.52" },
+      { service: "Hauling and Moving", unit: "Contact for Quote", price: "Contact for Quote" },
+    ],
+  },
+  {
+    title: "Soft Wash & Window Services",
+    description: "Gentle washing and window cleaning",
+    rows: [
+      { service: "Soft Wash", unit: "Contact for Quote", price: "Contact for Quote" },
+      { service: "Window Wash", unit: "Contact for Quote", price: "Contact for Quote" },
+      { service: "House Wash, Wax, and Blow", unit: "Contact for Quote", price: "Contact for Quote" },
     ],
   },
   {
     title: "Warranties & Protection",
     description: "Extended protection and warranty options",
     rows: [
-      { service: "Warranties", unit: "Duration", price: "Contact for Quote" },
+      { service: "Warranties", unit: "3-Year or 5-Year", price: "Contact for Quote" },
     ],
   },
 ];
@@ -247,66 +289,36 @@ export default function Prices() {
                   Important Pricing Notes
                 </h3>
                 <ul className="space-y-2 text-sm text-[#F5F0E8]/60">
-                  <li>
-                    All prices are estimates. Final pricing depends on condition, accessibility, and scope of work.
-                  </li>
-                  <li>
-                    Free quick and easy estimates — no obligation, no minimums.
-                  </li>
-                  <li>
-                    Discounts available: Senior citizens, military personnel, students, and teachers.
-                  </li>
-                  <li>
-                    Same-day service available upon request. We work 24/7/365, rain or shine.
-                  </li>
-                  <li>
-                    All services include reverse osmosis deionized water and MasterBlend products.
-                  </li>
-                  <li>
-                    Tony brings his own self-contained power, products, labor, and equipment.
-                  </li>
-                  <li>
-                    Licensed and insured. Serving Monterey County for 15 years.
-                  </li>
+                  <li>• All prices are estimates and subject to change based on property condition and scope</li>
+                  <li>• Free estimates available 24/7 with no obligation</li>
+                  <li>• Senior citizen, military, student, and teacher discounts available</li>
+                  <li>• No minimums — we serve all property sizes</li>
+                  <li>• Licensed and insured — 15+ years of experience</li>
                 </ul>
               </div>
             </div>
           </motion.div>
-        </div>
-      </section>
 
-      {/* ====== CTA ====== */}
-      <section className="bg-gradient-to-br from-[#0F3460] via-[#1A1A2E] to-[#16213E] py-20">
-        <div className="container text-center">
+          {/* CTA */}
           <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeUp}
             custom={0}
+            className="mt-16 text-center"
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-[#F5F0E8] mb-4">
-              Get Your Free Estimate
-            </h2>
-            <p className="text-[#F5F0E8]/60 max-w-lg mx-auto mb-8">
-              Call Tony directly for a quick, no-obligation estimate. Available 24/7/365.
+            <p className="text-[#1A1A2E] text-lg mb-6">
+              Have questions about pricing? Call Tony for a free estimate.
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a
-                href="tel:831-383-0791"
-                className="inline-flex items-center gap-3 bg-[#EFC07B] text-[#1A1A2E] px-10 py-5 text-lg font-bold tracking-wider uppercase transition-all duration-300 hover:bg-[#F5F0E8] hover:shadow-xl hover:shadow-[#EFC07B]/20"
-              >
-                <Phone className="w-6 h-6" />
-                831-383-0791
-              </a>
-              <a
-                href="mailto:onthespot831@gmail.com"
-                className="inline-flex items-center gap-2 border-2 border-[#EFC07B]/40 text-[#EFC07B] px-10 py-5 text-lg font-semibold tracking-wider uppercase transition-all duration-300 hover:bg-[#EFC07B]/10 hover:border-[#EFC07B]"
-              >
-                Email Us
-                <ChevronRight className="w-5 h-5" />
-              </a>
-            </div>
+            <a
+              href="tel:831-383-0791"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-[#EFC07B] text-[#1A1A2E] font-semibold rounded-lg hover:bg-[#EFC07B]/90 transition-colors"
+            >
+              <Phone className="w-5 h-5" />
+              831-383-0791
+              <ChevronRight className="w-5 h-5" />
+            </a>
           </motion.div>
         </div>
       </section>

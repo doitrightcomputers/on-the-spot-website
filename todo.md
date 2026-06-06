@@ -1,9 +1,9 @@
 # On-The-Spot Company Website - Minor Update (Apr 27, 2026)
 
 ## Phase 1: Asana Integration & Documentation
-- [ ] Access Asana project for On-The-Spot Company
-- [ ] Document today's scope and progress
-- [ ] Link to previous checkpoints and work
+- [x] Access Asana project for On-The-Spot Company
+- [x] Document today's scope and progress
+- [x] Link to previous checkpoints and work
 
 ## Phase 2: Social Media Updates
 - [x] Update Footer with Facebook link: https://www.facebook.com/people/On-The-Spot-Carpet-Cleaning/100077333312684/
@@ -56,8 +56,18 @@
 - [x] Ensure business card matches front page branding
 
 ## Phase 8: Final Testing & Deployment
-- [ ] Test Gallery with all photos on desktop and mobile
-- [ ] Verify pricing explanation displays correctly
-- [ ] Test business card design
-- [ ] Create final checkpoint
-- [ ] Document all work in Asana
+- [x] Test Gallery with all photos on desktop and mobile
+- [x] Verify pricing explanation displays correctly
+- [x] Test business card design
+- [x] Create final checkpoint
+- [x] Document all work in Asana
+
+
+## Phase 9: Business Card Redesign & Pricing Restoration (Apr 27, 2026 - Evening)
+- [ ] Restore all missing pricing services (Stair Cleaning, Wine/Red Stain, Mildew, Upholstery, etc.)
+- [ ] Update Commercial Services pricing to TBD (SH Wash) - remove "sodium hypochlorite" terminology
+- [ ] Add Natural Stone Cleaning at $1.00/sq. ft
+- [ ] Redesign business cards with improved premium aesthetic
+- [ ] Update hero image to real van photo with equipment visible
+- [ ] Test all changes
+- [ ] Save checkpoint
